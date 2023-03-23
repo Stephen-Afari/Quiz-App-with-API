@@ -1,0 +1,63 @@
+extends base
+mixin quizOptions(nme,id_,lbl)
+    span.inputBtn.description__text
+        input(type='radio' name=nme id=id_) 
+        | 
+        label(for=id_)= lbl
+
+include _reviewCard
+
+block content
+
+
+
+
+
+    section.section-header
+        .header__hero
+            .header__hero-overlay &nbsp;
+
+
+        .heading-box
+            h1.heading-primary
+                span= quiz.name
+
+
+    section.section-description
+
+        .description-box
+            h2.heading-secondary.ma-bt-lg= quiz.question
+                br
+                br
+
+                //- label.inputBtn= "Apple"
+                //-     input(type='radio' name="aa" value="bb")
+                +quizOptions(quiz.name,quiz._id,quiz.answers.get('a:'))
+                +quizOptions(quiz.name,quiz._id,quiz.answers.get('b:'))
+                +quizOptions(quiz.name,quiz._id,quiz.answers.get('c:'))
+                -if(quiz.answers.get('d'))
+                    +quizOptions(quiz.name,quiz._id,quiz.answers.get('d:'))
+
+
+
+
+
+
+
+
+
+
+
+    section.section-reviews
+        .reviews
+
+            .reviews__card
+                each review in quiz.reviews
+                    +reviewCard(review)
+
+    section.section-cta
+        .cta
+
+            .cta__content
+                h2.heading-secondary What are you waiting for?
+                p.cta__text Let's move on to the next question now

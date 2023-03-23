@@ -1,0 +1,103 @@
+[
+    
+    {
+    "name": "JS inventor",
+    "question": "Who invented JavaScript?",
+    "id": 0,
+    "answers": {
+    "a:": "Douglas Crockford",
+    "b:": "Sheryl Sandberg",
+    "c:": "Brendan Eich"
+    },
+    "correctAnswer": "c",
+    "difficultyLevel": 1.5,
+    "category": "Javascript",
+    "ratingsAverage": 4.7,
+    "reward": 200
+    },
+    {
+    "name": "JS packageM",
+    "question": "Which one of these is a Javascript package Manager?",
+    "id":1,
+    "answers": {
+    "a:": "Node.js",
+    "b:": "TypeScript",
+    "c:": "npm"
+    },
+    "correctAnswer": "c",
+    "category": "Javascript",
+    "ratingsAverage": 1.7,
+    "difficultyLevel": 3.1,
+    "reward": 500
+    },
+    {
+        "name": "Coding tool",
+    "question": "Which tool can you use to ensure code quality?",
+    "id": 2,
+    "answers": {
+    "a:": "Angula",
+    "b:": "JQuery",
+    "c:": "RequireJS",
+    "d:": "ESLint"
+    },
+    "correctAnswer": "d",
+    "difficultyLevel": 5.3,
+    "category": "Javascript",
+    "ratingsAverage": 9.3,
+    "reward": 1000
+    },
+    {
+        "name": "Roman numeral",
+    "question": "In Roman Numerals, what does XL equate?",
+    "id": 3,
+    "answers": {
+    "a:": "40",
+    "b:": "60",
+    "c:": "15",
+    "d:": "90"
+    },
+    "correctAnswer": "a",
+    "difficultyLevel": 3.3,
+    "category": "Science",
+    "ratingsAverage": 0.7,
+    "reward": 3200
+    },
+    {
+        "name": "Math medal",
+    "question": " Which mathematician refused the Fields Medal?",
+    "id": 4,
+    "answers": {
+    "a:": "Andrew Wiles",
+    "b:": "Grigori Perelman",
+    "c:": "Terence Tao",
+    "d:": "Terence Tia"
+    },
+    "correctAnswer": "b",
+    "difficultyLevel": 9.3,
+    "category": "Science",
+    "ratingsAverage": 6.8,
+    "reward": 11000
+    },
+    {
+        "name": "program author",
+    "question": " Who is the author of this API?",
+    "id": 5,
+    "answers": {
+    "a:": "Andrew Wiles",
+    "b:": "Afari Stephen",
+    "c:": "Terence Tao",
+    "d:": "Terence Tia"
+    },
+    "correctAnswer": "b",
+    "difficultyLevel": 9.3,
+    "category": "Science",
+    "reward": 11000
+    }
+    
+]
+       
+    
+    
+    
+    
+    
